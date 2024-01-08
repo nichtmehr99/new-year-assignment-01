@@ -1,0 +1,31 @@
+.banner {
+  background-image: url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  height: 600px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner-head,
+.banner-title {
+  font-family: Merriweather;
+  color: #fff;
+  text-align: center;
+}
+.banner-title {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.banner-head {
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.banner-content {
+  width: 630px;
+}
