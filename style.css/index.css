@@ -4,7 +4,7 @@
   background-position: center;
   border-radius: 16px;
   height: 600px;
-  background:(to right,#070211 20%, rgba(7, 2, 17, 0.00) 100%);
+  background: (to right, #070211 20%, rgba(7, 2, 17, 0) 100%);
   align-items: center;
   display: flex;
   align-items: center;
@@ -106,8 +106,12 @@
   background-color: aquamarine;
   text-align: center;
   padding: 100px 380px;
-  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-  width:750px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 750px;
 }
 .party-location > h2 {
   color: #070211;
@@ -249,4 +253,63 @@
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
+}
+/* offer section Style */
+.offer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 300px;
+  gap: 20px;
+}
+.offer-section-left {
+  width: 30%;
+}
+.offer-section-left > h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.offer-section-left > h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.offer-section-left > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.offer-section-img > img {
+  border-radius: 50%;
+  border: 15px solid #f00;
+}
+.offer-section-right {
+  text-align: center;
+}
+.offer-section-right > h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.offer-section-right > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  
 }
