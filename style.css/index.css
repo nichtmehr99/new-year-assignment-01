@@ -58,13 +58,13 @@
   margin-bottom: 50px;
 }
 /* Welcome banner style */
-.midnight-party-section{
-  background-image: url('..//resources/Vectorrr.png');
+.midnight-party-section {
+  background-image: url("..//resources/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
   height: 600px;
-  gap: 50px ;
+  gap: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,10 +91,38 @@
   font-size: 18px;
   font-weight: 400;
 }
-.midnight-party-section-left{
+.midnight-party-section-left {
   width: 600px;
   /* margin: 0 auto; */
   /* padding-left: 400px;
   padding-top: 100px; */
-
+}
+/* party location section style */
+.party-location {
+  /* height: 500px; */
+  margin: 100px auto;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 100px 380px;
+}
+.party-location > h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.btn-join {
+  background-color: #f00;
+  padding: 16px 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border-style: none;
 }
