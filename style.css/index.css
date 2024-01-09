@@ -4,6 +4,10 @@
   background-position: center;
   border-radius: 16px;
   height: 600px;
+  background:(to right,#070211 20%, rgba(7, 2, 17, 0.00) 100%);
+
+
+  
   align-items: center;
   display: flex;
   align-items: center;
@@ -135,6 +139,11 @@
   /* padding: 0px 140px; */
   gap: 20px;
 }
+.item:hover {
+  background-color: rgb(255, 142, 142);
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
 .gift-section {
   margin-left: 295px;
   margin-bottom: 120px;
@@ -221,25 +230,24 @@
   font-weight: 500;
   line-height: normal;
 }
-.footer-info{
+.footer-info {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.address{
+.address {
   width: 30%;
   line-height: 40px;
 }
-.social-container{
+.social-container {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  gap: 15px ;
+  gap: 15px;
   margin-bottom: 50px;
 }
-.footer-text{
+.footer-text {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
 }
-
