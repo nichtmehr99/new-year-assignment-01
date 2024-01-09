@@ -29,3 +29,31 @@
 .banner-content {
   width: 630px;
 }
+/* discount-section styles */
+.discount-section {
+  text-align: center;
+}
+.discount-head {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
+.discount-slogan {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.all-category {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
