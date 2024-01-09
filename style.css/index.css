@@ -32,6 +32,7 @@
 /* discount-section styles */
 .discount-section {
   text-align: center;
+  margin-bottom: 120px;
 }
 .discount-head {
   color: #f00;
@@ -125,4 +126,42 @@
   text-transform: uppercase;
   border-radius: 8px;
   border-style: none;
+}
+/* Gift section style */
+.item-container {
+  display: inline-grid;
+  /* grid-template-columns:30% 30% 30%; */
+  grid-template-columns: 33% 33% 33%;
+  /* padding: 0px 140px; */
+  gap: 20px;
+}
+.gift-section {
+  margin-left: 295px;
+  margin-bottom: 120px;
+}
+.gift-slogan {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.gift-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 18px 0px;
+}
+.gift-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 45px;
+  width: 70%;
 }
