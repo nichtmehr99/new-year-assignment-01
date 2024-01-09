@@ -5,9 +5,6 @@
   border-radius: 16px;
   height: 600px;
   background:(to right,#070211 20%, rgba(7, 2, 17, 0.00) 100%);
-
-
-  
   align-items: center;
   display: flex;
   align-items: center;
@@ -109,6 +106,8 @@
   background-color: aquamarine;
   text-align: center;
   padding: 100px 380px;
+  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  width:750px;
 }
 .party-location > h2 {
   color: #070211;
